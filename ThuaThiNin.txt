@@ -2383,6 +2383,11 @@ local posY = 60
 local posZ = 0
 --------------------------------------------------------------------------------------------------------------------------------------------
 --Infor Hub
+Tabs.Infor:AddParagraph({
+        Title = "Thong Tin",
+        Content = "An Sieu Dep Trai"
+    })
+
 Tabs.Infor:AddButton({
     Title = "Link Discord",
     Description = "",
