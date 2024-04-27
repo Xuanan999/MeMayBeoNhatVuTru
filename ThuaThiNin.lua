@@ -2382,16 +2382,16 @@ local posX = 0
 local posY = 60
 local posZ = 0
 --------------------------------------------------------------------------------------------------------------------------------------------
---Create Tabs
-    Tabs.Infor:AddButton({
+--Infor Tabs
+	Tabs.Infor:AddButton({
 	Title = "Link Discord",
 	Description = "Ấn Vào Để Lấy Link Discord Để Nhận Update Mới",
 	Callback = function()
 		setclipboard(https://discord.com/invite/xEtdZkjp))
             end")
-	end
 })
-
+--Create Tabs
+    
      Tabs.Main:AddParagraph({
         Title = "Farming",
         Content = "Auto Farm"
